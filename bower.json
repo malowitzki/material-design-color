@@ -1,0 +1,28 @@
+{
+  "name": "material-design-color",
+  "version": "0.0.0",
+  "homepage": "https://github.com/malowitzki/material-design-color",
+  "authors": [
+    "malowitzki <mick.malowany@gmail.com>"
+  ],
+  "description": "Material color palette for Sass",
+  "main": "_material-design-color.scss",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "Sass",
+    "color",
+    "library"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".versions",
+    "package.js"
+  ]
+}
