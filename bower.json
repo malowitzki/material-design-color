@@ -13,7 +13,8 @@
   "keywords": [
     "Sass",
     "color",
-    "library"
+    "palette",
+    "material"
   ],
   "license": "MIT",
   "ignore": [
