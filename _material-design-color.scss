@@ -317,7 +317,7 @@ $material-design-color-palette: (
 
 );
 
-@function md-color($color, $hue) {
+@function md-color($color, $hue: 500) {
 	$palette: map-get($material-design-color-palette, $color);
 
 	@if $color == "black" or $color == "white" { 
