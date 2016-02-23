@@ -318,11 +318,11 @@ $material-design-color-palette: (
 );
 
 @each $color, $palette in $material-design-color-palette {
-	@if $color == "black" || $color == "white" { 
+	@if $color == "black" or $color == "white" { 
 		$md-#{$color}: $palette;
 	} @else {
-		@each $hue, $hex-value {
-			$md-#{$color}-$hue: $hex-value;
+		@each $hue, $hex-value in $palette {
+			$md-#{$color}-#{$hue}: $hex-value;
 		}
 	}
 }
