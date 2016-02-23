@@ -1,3 +1,3 @@
-# Material design color [work in progress]
+# Material design color
 
 Google's Material design color palette implemented for Sass
