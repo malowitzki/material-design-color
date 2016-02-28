@@ -317,12 +317,14 @@ $material-design-color-palette: (
 
 );
 
-@function md-color($color, $hue: 500) {
+@function md-color($color, $hue: 500, $alpha: 1) {
 	$palette: map-get($material-design-color-palette, $color);
 
 	@if $color == "black" or $color == "white" { 
-		@return $palette;
+		$color = $palette;
 	} @else {
-		@return map-get($palette, $hue);
+		$color = map-get($palette, $hue);
 	}
+	
+	@return rgba($color, $alpha);
 }
