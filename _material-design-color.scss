@@ -322,6 +322,7 @@ $material-design-color-palette: (
 
 	@if $color == "black" or $color == "white" { 
 		$color = $palette;
+		$alpha = $hue;
 	} @else {
 		$color = map-get($palette, $hue);
 	}
